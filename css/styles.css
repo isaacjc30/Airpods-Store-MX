@@ -1888,3 +1888,33 @@ header.top .bar {
   color: var(--muted);
   max-width: 46ch;
 }
+/* Redes sociales: íconos oficiales (aparecen cuando la URL está en config.js) */
+.foot-social .social-link {
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+.foot-social .social-link:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  transform: translateY(-2px);
+}
+.foot-social .social-link svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.foot-social .social-link[hidden] {
+  display: none;
+}
