@@ -54,7 +54,7 @@ const CONFIG = {
   ],
 
   // Redes sociales: pon la URL completa. Vacío = no se muestra.
-  social: { instagram: "", facebook: "", tiktok: "" },
+  social: { instagram: "https://www.instagram.com/pods_marked_0?cplk=dm1qYzQ1emxoc3J0", facebook: "", tiktok: "" },
 
   // Correo de contacto. Vacío = no se muestra.
   email: "airpods.store.mx12@gmail.com"
