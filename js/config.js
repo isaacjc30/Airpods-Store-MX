@@ -23,7 +23,7 @@ const CONFIG = {
       id: "pro3", fit: "almohadilla", newest: true,
       name: "AirPods Pro 3",
       tag: "Pro 3",
-      price: 449,
+      price: 399,
       desc: "Modelo de la línea Pro. OEM Premium.",
       images: ["img/products/pro3-1.jpg", "img/products/pro3-2.jpg"]
     },
@@ -31,7 +31,7 @@ const CONFIG = {
       id: "pro2", fit: "almohadilla",
       name: "AirPods Pro 2",
       tag: "Pro 2",
-      price: 449,
+      price: 399,
       desc: "Modelo de la línea Pro. OEM Premium.",
       images: ["img/products/pro2-1.jpg", "img/products/pro2-2.jpg"]
     },
@@ -39,7 +39,7 @@ const CONFIG = {
       id: "gen4", fit: "sin almohadilla",
       name: "AirPods 4.ª generación",
       tag: "4.ª gen",
-      price: 449,
+      price: 399,
       desc: "Modelo de 4.ª generación. OEM Premium.",
       images: ["img/products/gen4-1.jpg", "img/products/gen4-2.jpg"]
     }
